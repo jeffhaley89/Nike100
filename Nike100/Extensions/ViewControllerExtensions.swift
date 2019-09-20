@@ -6,4 +6,14 @@
 //  Copyright © 2019 Jeffrey Haley. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIViewController {
+    
+    func displaySimpleAlert(message: String) {
+        let alertVc = UIAlertController(title: message, message: nil, preferredStyle: .alert)
+        alertVc.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alertVc, animated: true, completion: nil)
+    }
+}
+

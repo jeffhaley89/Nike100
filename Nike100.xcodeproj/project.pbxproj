@@ -8,15 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		452F04672334606E006090F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04662334606E006090F0 /* AppDelegate.swift */; };
-		452F04692334606E006090F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04682334606E006090F0 /* ViewController.swift */; };
-		452F046C2334606E006090F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F046A2334606E006090F0 /* Main.storyboard */; };
 		452F046E23346070006090F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452F046D23346070006090F0 /* Assets.xcassets */; };
 		452F047123346070006090F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F046F23346070006090F0 /* LaunchScreen.storyboard */; };
-		452F047C23346070006090F0 /* Nike100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F047B23346070006090F0 /* Nike100Tests.swift */; };
+		452F048D23346197006090F0 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F048C23346197006090F0 /* Album.swift */; };
+		452F048F233461D7006090F0 /* AlbumSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F048E233461D7006090F0 /* AlbumSearchModel.swift */; };
+		452F04972334628C006090F0 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04952334628C006090F0 /* AlbumTableViewCell.swift */; };
+		452F04992334628C006090F0 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452F04962334628C006090F0 /* AlbumTableViewCell.xib */; };
+		452F049F23346395006090F0 /* AlbumImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F049E23346395006090F0 /* AlbumImageView.swift */; };
+		452F04A32334642B006090F0 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04A12334642B006090F0 /* AlbumListViewController.swift */; };
+		452F04A52334642B006090F0 /* AlbumListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452F04A22334642B006090F0 /* AlbumListViewController.xib */; };
+		452F04A9233464D1006090F0 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04A7233464D1006090F0 /* AlbumDetailViewController.swift */; };
+		452F04AB233464D1006090F0 /* AlbumDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452F04A8233464D1006090F0 /* AlbumDetailViewController.xib */; };
+		452F04AE2334651B006090F0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04AD2334651B006090F0 /* NetworkManager.swift */; };
+		452F04B623352731006090F0 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F04B523352731006090F0 /* ViewControllerExtensions.swift */; };
+		452F050623353A12006090F0 /* Nike100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F050523353A11006090F0 /* Nike100Tests.swift */; };
+		452F050E23356FE1006090F0 /* AlbumJSONTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 452F050D23356FE1006090F0 /* AlbumJSONTest.json */; };
+		452F050F233570E3006090F0 /* AlbumJSONTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 452F050D23356FE1006090F0 /* AlbumJSONTest.json */; };
+		452F051023357478006090F0 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F048C23346197006090F0 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		452F047823346070006090F0 /* PBXContainerItemProxy */ = {
+		452F04FF23353935006090F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 452F045B2334606E006090F0 /* Project object */;
 			proxyType = 1;
@@ -28,14 +40,24 @@
 /* Begin PBXFileReference section */
 		452F04632334606E006090F0 /* Nike100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nike100.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452F04662334606E006090F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		452F04682334606E006090F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		452F046B2334606E006090F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		452F046D23346070006090F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452F047023346070006090F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		452F047223346070006090F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		452F047723346070006090F0 /* Nike100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nike100Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		452F047B23346070006090F0 /* Nike100Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike100Tests.swift; sourceTree = "<group>"; };
-		452F047D23346070006090F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452F048C23346197006090F0 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		452F048E233461D7006090F0 /* AlbumSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSearchModel.swift; sourceTree = "<group>"; };
+		452F04952334628C006090F0 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		452F04962334628C006090F0 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		452F049E23346395006090F0 /* AlbumImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImageView.swift; sourceTree = "<group>"; };
+		452F04A12334642B006090F0 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		452F04A22334642B006090F0 /* AlbumListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumListViewController.xib; sourceTree = "<group>"; };
+		452F04A7233464D1006090F0 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		452F04A8233464D1006090F0 /* AlbumDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumDetailViewController.xib; sourceTree = "<group>"; };
+		452F04AD2334651B006090F0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		452F04B523352731006090F0 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		452F04CA23353526006090F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452F04FA23353935006090F0 /* Nike100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nike100Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452F04FE23353935006090F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452F050523353A11006090F0 /* Nike100Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nike100Tests.swift; path = ../../Downloads/Nike100/Nike100Tests/Nike100Tests.swift; sourceTree = "<group>"; };
+		452F050D23356FE1006090F0 /* AlbumJSONTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AlbumJSONTest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +68,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		452F047423346070006090F0 /* Frameworks */ = {
+		452F04F723353935006090F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				452F04652334606E006090F0 /* Nike100 */,
-				452F047A23346070006090F0 /* Nike100Tests */,
+				452F04FB23353935006090F0 /* Nike100Tests */,
 				452F04642334606E006090F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				452F04632334606E006090F0 /* Nike100.app */,
-				452F047723346070006090F0 /* Nike100Tests.xctest */,
+				452F04FA23353935006090F0 /* Nike100Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,21 +99,87 @@
 		452F04652334606E006090F0 /* Nike100 */ = {
 			isa = PBXGroup;
 			children = (
-				452F04662334606E006090F0 /* AppDelegate.swift */,
-				452F04682334606E006090F0 /* ViewController.swift */,
-				452F046A2334606E006090F0 /* Main.storyboard */,
-				452F046D23346070006090F0 /* Assets.xcassets */,
-				452F046F23346070006090F0 /* LaunchScreen.storyboard */,
-				452F047223346070006090F0 /* Info.plist */,
+				452F048B233460C2006090F0 /* Models */,
+				452F048A233460C0006090F0 /* Views */,
+				452F0489233460BC006090F0 /* Controllers */,
+				452F04B423352716006090F0 /* Extensions */,
+				452F0487233460B6006090F0 /* Network Manager */,
+				452F048623346095006090F0 /* Supporting Files */,
+				452F04CA23353526006090F0 /* Info.plist */,
 			);
 			path = Nike100;
 			sourceTree = "<group>";
 		};
-		452F047A23346070006090F0 /* Nike100Tests */ = {
+		452F048623346095006090F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				452F047B23346070006090F0 /* Nike100Tests.swift */,
-				452F047D23346070006090F0 /* Info.plist */,
+				452F04662334606E006090F0 /* AppDelegate.swift */,
+				452F046D23346070006090F0 /* Assets.xcassets */,
+				452F046F23346070006090F0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		452F0487233460B6006090F0 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				452F04AD2334651B006090F0 /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		452F0489233460BC006090F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				452F04A12334642B006090F0 /* AlbumListViewController.swift */,
+				452F04A22334642B006090F0 /* AlbumListViewController.xib */,
+				452F04A7233464D1006090F0 /* AlbumDetailViewController.swift */,
+				452F04A8233464D1006090F0 /* AlbumDetailViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		452F048A233460C0006090F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				452F04B023346779006090F0 /* TableViewCells */,
+				452F049E23346395006090F0 /* AlbumImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		452F048B233460C2006090F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				452F048C23346197006090F0 /* Album.swift */,
+				452F048E233461D7006090F0 /* AlbumSearchModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		452F04B023346779006090F0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				452F04952334628C006090F0 /* AlbumTableViewCell.swift */,
+				452F04962334628C006090F0 /* AlbumTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		452F04B423352716006090F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				452F04B523352731006090F0 /* ViewControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		452F04FB23353935006090F0 /* Nike100Tests */ = {
+			isa = PBXGroup;
+			children = (
+				452F050523353A11006090F0 /* Nike100Tests.swift */,
+				452F04FE23353935006090F0 /* Info.plist */,
+				452F050D23356FE1006090F0 /* AlbumJSONTest.json */,
 			);
 			path = Nike100Tests;
 			sourceTree = "<group>";
@@ -116,22 +204,22 @@
 			productReference = 452F04632334606E006090F0 /* Nike100.app */;
 			productType = "com.apple.product-type.application";
 		};
-		452F047623346070006090F0 /* Nike100Tests */ = {
+		452F04F923353935006090F0 /* Nike100Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 452F048323346070006090F0 /* Build configuration list for PBXNativeTarget "Nike100Tests" */;
+			buildConfigurationList = 452F050123353935006090F0 /* Build configuration list for PBXNativeTarget "Nike100Tests" */;
 			buildPhases = (
-				452F047323346070006090F0 /* Sources */,
-				452F047423346070006090F0 /* Frameworks */,
-				452F047523346070006090F0 /* Resources */,
+				452F04F623353935006090F0 /* Sources */,
+				452F04F723353935006090F0 /* Frameworks */,
+				452F04F823353935006090F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				452F047923346070006090F0 /* PBXTargetDependency */,
+				452F050023353935006090F0 /* PBXTargetDependency */,
 			);
 			name = Nike100Tests;
 			productName = Nike100Tests;
-			productReference = 452F047723346070006090F0 /* Nike100Tests.xctest */;
+			productReference = 452F04FA23353935006090F0 /* Nike100Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -147,8 +235,9 @@
 					452F04622334606E006090F0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					452F047623346070006090F0 = {
+					452F04F923353935006090F0 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 452F04622334606E006090F0;
 					};
 				};
@@ -167,7 +256,7 @@
 			projectRoot = "";
 			targets = (
 				452F04622334606E006090F0 /* Nike100 */,
-				452F047623346070006090F0 /* Nike100Tests */,
+				452F04F923353935006090F0 /* Nike100Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,15 +267,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				452F047123346070006090F0 /* LaunchScreen.storyboard in Resources */,
+				452F04AB233464D1006090F0 /* AlbumDetailViewController.xib in Resources */,
+				452F04A52334642B006090F0 /* AlbumListViewController.xib in Resources */,
+				452F050F233570E3006090F0 /* AlbumJSONTest.json in Resources */,
 				452F046E23346070006090F0 /* Assets.xcassets in Resources */,
-				452F046C2334606E006090F0 /* Main.storyboard in Resources */,
+				452F04992334628C006090F0 /* AlbumTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		452F047523346070006090F0 /* Resources */ = {
+		452F04F823353935006090F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452F050E23356FE1006090F0 /* AlbumJSONTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,38 +290,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452F04692334606E006090F0 /* ViewController.swift in Sources */,
+				452F04972334628C006090F0 /* AlbumTableViewCell.swift in Sources */,
+				452F04AE2334651B006090F0 /* NetworkManager.swift in Sources */,
+				452F048F233461D7006090F0 /* AlbumSearchModel.swift in Sources */,
+				452F04A32334642B006090F0 /* AlbumListViewController.swift in Sources */,
+				452F04A9233464D1006090F0 /* AlbumDetailViewController.swift in Sources */,
+				452F049F23346395006090F0 /* AlbumImageView.swift in Sources */,
 				452F04672334606E006090F0 /* AppDelegate.swift in Sources */,
+				452F04B623352731006090F0 /* ViewControllerExtensions.swift in Sources */,
+				452F048D23346197006090F0 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		452F047323346070006090F0 /* Sources */ = {
+		452F04F623353935006090F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452F047C23346070006090F0 /* Nike100Tests.swift in Sources */,
+				452F050623353A12006090F0 /* Nike100Tests.swift in Sources */,
+				452F051023357478006090F0 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		452F047923346070006090F0 /* PBXTargetDependency */ = {
+		452F050023353935006090F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 452F04622334606E006090F0 /* Nike100 */;
-			targetProxy = 452F047823346070006090F0 /* PBXContainerItemProxy */;
+			targetProxy = 452F04FF23353935006090F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		452F046A2334606E006090F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				452F046B2334606E006090F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		452F046F23346070006090F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -392,11 +485,11 @@
 			};
 			name = Release;
 		};
-		452F048423346070006090F0 /* Debug */ = {
+		452F050223353935006090F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TG5S2LR92S;
 				INFOPLIST_FILE = Nike100Tests/Info.plist;
@@ -407,17 +500,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jeffreyhaley.Nike100Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nike100.app/Nike100";
 			};
 			name = Debug;
 		};
-		452F048523346070006090F0 /* Release */ = {
+		452F050323353935006090F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TG5S2LR92S;
 				INFOPLIST_FILE = Nike100Tests/Info.plist;
@@ -455,11 +549,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		452F048323346070006090F0 /* Build configuration list for PBXNativeTarget "Nike100Tests" */ = {
+		452F050123353935006090F0 /* Build configuration list for PBXNativeTarget "Nike100Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				452F048423346070006090F0 /* Debug */,
-				452F048523346070006090F0 /* Release */,
+				452F050223353935006090F0 /* Debug */,
+				452F050323353935006090F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
