@@ -1,0 +1,27 @@
+{
+    [
+        "artistName": "Post Malone",
+        "id": "1477880265",
+        "releaseDate": "2019-09-06",
+        "name": "Hollywood's Bleeding",
+        "kind": "album",
+        "copyright": "℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+        "artistId": "966309175",
+        "contentAdvisoryRating": "Explicit",
+        "artistUrl": "https://music.apple.com/us/artist/post-malone/966309175?app=music",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/be/41/46/be4146f9-d1c1-9756-8b27-fde6e5b91ac4/19UMGIM78325.rgb.jpg/200x200bb.png",
+        "genres": [
+            {
+                "genreId": "18",
+                "name": "Hip-Hop/Rap",
+                "url": "https://itunes.apple.com/us/genre/id18"
+            },
+            {
+                "genreId": "34",
+                "name": "Music",
+                "url": "https://itunes.apple.com/us/genre/id34"
+            }
+        ],
+        "url": "https://music.apple.com/us/album/hollywoods-bleeding/1477880265?app=music"
+    ]
+}

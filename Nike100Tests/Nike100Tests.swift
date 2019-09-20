@@ -2,12 +2,11 @@
 //  Nike100Tests.swift
 //  Nike100Tests
 //
-//  Created by Jeffrey Haley on 9/19/19.
+//  Created by Jeffrey Haley on 9/20/19.
 //  Copyright © 2019 Jeffrey Haley. All rights reserved.
 //
 
 import XCTest
-@testable import Nike100
 
 class Nike100Tests: XCTestCase {
 
